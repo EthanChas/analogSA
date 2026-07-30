@@ -1,5 +1,16 @@
 # Changelog
 
+## v0.0.8
+
+**Category selection is now inside the Filters sheet**, which is where it should have been
+in v0.0.7. It was only on the chip row above the list, so opening Filters offered year,
+rating and price but no way to pick EF, EF-M and EF-S together.
+
+The sheet now has a Category section with a chip for every mount or series, any number of
+which can be selected at once. Selecting none means all. The chip row above the list stays
+in step with it, so the two never disagree, and Reset clears everything including the
+categories.
+
 ## v0.0.7
 
 **Advanced filters**, on both the lens and camera lists, for Pentax and Canon alike.
