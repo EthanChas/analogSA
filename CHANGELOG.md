@@ -1,5 +1,32 @@
 # Changelog
 
+## v0.0.6
+
+**Canon lens names were wrong, and are fixed.** Lenses were appearing as "Canon 93 mm"
+with a focal length of 600 mm, because the older mount tables rowspan their focal-length
+cell across every variant of a lens. Continuation rows therefore arrive one cell short,
+and every column read after that point was shifted — a "Dia. x Len." cell was being read
+as the lens name, and a diameter as a filter thread.
+
+Column alignment now accounts for the rowspan, and a name is only used if the focal length
+inside it matches the focal length derived independently. Recovering those continuation
+rows also added 36 lenses that had been dropped, taking Canon from 426 to **462**.
+
+**Quality ratings for Canon**, from allphotolenses.com, which is the nearest equivalent to
+the PentaxForums database the Pentax ratings came from. Its scores are out of five and have
+been rescaled to the ten-point scale used elsewhere, with the same tier thresholds, so
+"Excellent" means the same thing for both brands.
+
+Coverage is thin and the app does not pretend otherwise: **32 of 462 Canon lenses carry a
+rating**, against 213 of 220 for Pentax. There is no openly accessible Canon equivalent of
+the PentaxForums review database, and most Canon entries there have no user reviews at all.
+Everything unrated is shown as "No rating data" rather than being given a plausible number.
+
+Two caveats worth knowing. Ratings are matched by mount, focal length and maximum aperture,
+so generations sharing those figures share a rating — the four 50mm f/1.4 FD variants all
+show the same score. And several ratings rest on one to three reviews, so the review count
+is shown next to every score.
+
 ## v0.0.5
 
 **Canon.** 426 lenses across every Canon mount — EF (150), RF (102), FD (98), FL (31), R
