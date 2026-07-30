@@ -1,5 +1,28 @@
 # Changelog
 
+## v0.0.7
+
+**Advanced filters**, on both the lens and camera lists, for Pentax and Canon alike.
+
+**Categories are now multiple choice.** The chip row selects any combination of mounts or
+series — EF and RF together, or K, M and A at once — rather than one at a time. Selecting
+none shows everything, which removes the need for an "All" chip that has to be kept in
+sync with the rest.
+
+**A Filters button** opens range controls for:
+
+- **Released** — a year range, read from the introduction date.
+- **Rating** — minimum and maximum, on the ten-point scale.
+- **Price** — minimum and maximum in USD.
+
+The button shows how many ranges are active. Sliders left at their extremes do not count
+as filtering, so an untouched control never silently removes anything.
+
+Ranges only appear where the data supports them: cameras get the year range and nothing
+else, because bodies carry no rating or price. Anything with no value for an active filter
+is excluded rather than quietly kept — a lens with no rating cannot satisfy "rated 8 or
+better" — and the sheet says so next to the controls that behave this way.
+
 ## v0.0.6
 
 **Canon lens names were wrong, and are fixed.** Lenses were appearing as "Canon 93 mm"
