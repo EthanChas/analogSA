@@ -1,5 +1,28 @@
 # Changelog
 
+## v0.0.4
+
+**The updater no longer crashes, and says what went wrong when it fails.** Updating from
+within the app could black out and die instead of installing. Every step of the update
+path is now caught, and a failure ends in a dialog naming the cause with an option to
+download the file in a browser instead.
+
+Three specific fixes behind that:
+
+- **Redirects.** GitHub serves release downloads via a redirect to a separate storage
+  host. `HttpURLConnection` does not follow that hop automatically, so the download could
+  end up saving a redirect stub rather than an APK. Redirects are now followed explicitly,
+  up to five hops.
+- **The download is now verified** before being handed to the installer — it must be over
+  100 KB and start with the zip magic number that every APK begins with. Previously an
+  error page saved as `.apk` would have been passed straight to the package installer.
+- **Progress is visible.** An 18 MB download over mobile data takes a while, and there was
+  nothing on screen during it. There is now a progress dialog, so the app no longer looks
+  like it has hung or done nothing.
+
+The install permission is also re-checked immediately before installing, since it can be
+revoked between granting it and the download finishing.
+
 ## v0.0.3
 
 **Share the app.** A new row on the home screen shows a QR code for the project page.
