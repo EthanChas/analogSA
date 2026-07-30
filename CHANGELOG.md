@@ -1,5 +1,17 @@
 # Changelog
 
+## v0.0.5
+
+**Canon.** 426 lenses across every Canon mount — EF (150), RF (102), FD (98), FL (31), R
+(18), EF-M (15) and EF-S (12) — compiled from Wikipedia's lens mount articles. Each entry
+carries focal length, maximum aperture, year of introduction, and the feature flags that
+matter when buying: L-series, USM, image stabilisation, filter thread.
+
+Canon has **no camera bodies yet**, and the app now says so rather than showing Pentax's.
+Camera bodies are tagged by brand, so each brand's count is its own.
+
+The Canon logo appears on its card, in the same way Pentax's does.
+
 ## v0.0.4
 
 **The updater no longer crashes, and says what went wrong when it fails.** Updating from
