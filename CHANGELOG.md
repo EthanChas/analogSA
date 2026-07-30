@@ -1,5 +1,16 @@
 # Changelog
 
+## v0.0.3
+
+**Share the app.** A new row on the home screen shows a QR code for the project page.
+Point a phone camera at it and it opens the release page, which is the whole distribution
+mechanism for an app that is not on any store. There is also a button to send the link
+through any share target, and a note explaining the warning the recipient will see when
+they install it.
+
+The code is generated when the screen opens rather than being a bundled image, so it
+follows the light or dark theme and can never fall out of sync with the link.
+
 ## v0.0.2
 
 **In-app updates.** The app now checks GitHub for a newer release once each time it
