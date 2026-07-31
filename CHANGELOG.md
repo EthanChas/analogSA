@@ -1,5 +1,27 @@
 # Changelog
 
+## v0.0.17
+
+**Takealot is now checked for film stock**, alongside Truth Photo, Outdoorphoto, Cameraland,
+ORMS and Expired Film. Its catalogue is far too large to pull wholesale, so it is searched
+instead: a fixed set of film searches, pooled and de-duplicated by product id, giving about
+100 film products with live price and stock.
+
+**Product matching is much stricter, which matters more than the new shop.** Matching on any
+two shared words was pairing Kodak Portra 400 with Kodak UltraMax 400, Fomapan 400 with
+AgfaPhoto 400, and Kodak Ektar 100 with an Ektar *camera* — all at prices belonging to a
+different product entirely.
+
+A match now needs a genuinely distinctive product word in common, ignoring the words half
+the catalogue shares — kodak, film, colour, 35mm, professional and the film speeds. Where
+both sides state a speed, the speeds must agree, and a film never matches a camera that
+shares its name.
+
+On Takealot this took the film stocks from 21 matches, mostly wrong, to 7 that are all
+correct: Gold 200 to Gold 200, ColorPlus to ColorPlus, Instax Mini to Instax Mini,
+UltraMax 400 to UltraMax 400, Double-X to Eastman Double-X. Fewer results, but each one is
+the product you were actually looking at.
+
 ## v0.0.16
 
 **The Truth Photo logo is in**, covering all 17 of their listings across labs, film stocks
