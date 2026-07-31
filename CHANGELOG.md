@@ -1,5 +1,26 @@
 # Changelog
 
+## v0.0.12
+
+**The supplied Canon ratings are in.** 151 lenses scored, every line parsed and every name
+matched — nothing was dropped or guessed at. Scores in that file are out of five and have
+been doubled onto the ten-point scale used everywhere else.
+
+**Canon rated lenses go from 96 to 241.** The vintage mounts are now essentially complete:
+FD 126 of 133, FL 31 of 33, R 9 of 21. Across both brands, 394 of 682 lenses carry a
+rating, up from 249.
+
+Where a lens already had an allphotolenses score, the supplied file wins — it is
+hand-checked and draws on more sources for vintage glass, which is exactly where the
+scraped database is weakest. That affected 6 lenses.
+
+Each lens records which method produced its score, so the two remain distinguishable: the
+scraped community scores and the ratings derived from prose verdicts across review sites
+are both named in the source line on the detail screen.
+
+Remaining gaps are concentrated in RF (98) and the rest of EF (84), which the supplied
+vintage run put out of scope.
+
 ## v0.0.11
 
 **Photographs for the vintage Canon lenses.** 46 images from Wikimedia Commons covering
