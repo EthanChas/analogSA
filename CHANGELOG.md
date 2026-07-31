@@ -1,5 +1,29 @@
 # Changelog
 
+## v0.0.22
+
+**Canon camera bodies are in — 89 of them**, spanning 1933 to 2004, so Canon is no longer
+lenses-only. They are grouped into eleven series that follow Canon's own history:
+
+- **Rangefinder** (18) — Kwanon prototype, Hansa Canon, the VT, L and VI bodies, the P, the 7 and 7s
+- **Canonflex, R mount** (4) — Canon's first SLRs
+- **FL mount** (6) — including the pellicle-mirror Pellix
+- **F series** (8) — F-1, FTb, New F-1
+- **A series** (6) — AE-1, A-1, AE-1 Program
+- **T series** (5) — T50 through the T90, and the Cosina-built T60
+- **EOS** (13) — EOS 650 through the EOS-1V, including the APS bodies
+- **Canonet** (11) — including the G-III QL17
+- **Compact autofocus** (6) — the AF35M and the Sure Shot / Prima / Autoboy family
+- **Half-frame** (9) — Demi and Dial
+- **110 format** (3)
+
+Each carries its years, mount, format, focus type, lens compatibility, and notes on what
+made it distinct. No photographs yet.
+
+Where the source list deliberately groups a family — the postwar Leica-thread run, the
+70-plus Sure Shot variants, the Rebel/Kiss badge variants — the group is kept as one entry
+rather than inventing per-model years that are not recorded.
+
 ## v0.0.21
 
 **A one-time notice before the gear pages.** Opening Equipment information for the first
