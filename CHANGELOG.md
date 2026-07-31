@@ -1,5 +1,15 @@
 # Changelog
 
+## v0.0.14
+
+**Brand logos are balanced by area rather than by a bounding box.** The Pentax wordmark is
+five times wider than it is tall and the Canon one is nearly square, so any single
+constraint favours one of them — fit the height and Pentax spans the whole card, fit the
+width and Canon shrinks to a third of it. The logo box is now taller and inset
+horizontally, which caps how far a long wordmark can run while letting a squarer mark grow.
+On a typical screen the two now occupy 11,349 and 10,325 square dp; Canon was previously
+less than half of Pentax.
+
 ## v0.0.13
 
 **Live prices and stock for film and chemicals.** Open a film stock or a chemical and tap
