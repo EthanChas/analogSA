@@ -1,5 +1,26 @@
 # Changelog
 
+## v0.0.23
+
+**Minolta is on the home screen**, with its logo. No lenses or bodies yet — the category is
+there ready for them.
+
+Brands now come from a `brands.json` list rather than being inferred from whatever appears
+in the lens file, which is what makes an empty brand possible at all. It also fixes the
+ordering, which used to shuffle as lens counts changed.
+
+**The Canon logo is 50% bigger, and the haze behind it is gone.** The cause turned out not
+to be the layout, which is where the previous two attempts at this went. The file was
+320x240 but the Canon wordmark inside it is only 304x64 — the rest was near-transparent
+padding, and since the logo is scaled by its canvas rather than its artwork, that padding
+was shrinking the wordmark to about a quarter of the space available. Trimming the canvas
+scales the artwork back up. Those faint pixels were also rendering as a visible tinted
+rectangle behind the logo, which is now cleared.
+
+The Minolta wordmark is recoloured to the blue of its own symbol. It is black in the
+original, which would have disappeared against the dark theme; both other brand logos are a
+single mid-tone colour for exactly that reason.
+
 ## v0.0.22
 
 **Canon camera bodies are in — 89 of them**, spanning 1933 to 2004, so Canon is no longer
