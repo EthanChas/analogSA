@@ -1,5 +1,21 @@
 # Changelog
 
+## v0.0.18
+
+**Cape Film Supply is now checked for stock.** It is the first shop on the list that sells
+nothing but film, and it fills the gaps the general retailers leave: Portra, Ektar, HP5 and
+Tri-X are all carried there and were showing no price anywhere before. Film stock coverage
+goes from 24 of 38 stocks with a live price to 35 of 38.
+
+**Three matching corrections**, all of them things that were quietly showing the wrong price:
+
+- Hyphens are no longer treated as word breaks. "T-Max" was splitting into "t" and "max",
+  and matching a GoPro **MAX** battery. It is now one word, so it only matches T-Max.
+- Film format is respected. A 35mm roll no longer quotes the price of the same stock in 120,
+  which is a different product at a different price.
+- Accessories are excluded. Instax Mini film was matching a *photo album* for Instax prints.
+  Albums, cases, straps, batteries, holders and the like are no longer treated as film.
+
 ## v0.0.17
 
 **Takealot is now checked for film stock**, alongside Truth Photo, Outdoorphoto, Cameraland,
