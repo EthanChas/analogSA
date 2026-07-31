@@ -1,5 +1,48 @@
 # Changelog
 
+## v0.0.20
+
+**The film list goes from 38 stocks to 112.** This was the real reason films looked
+missing. Searching Takealot harder could not help, because most of what it sells had no
+entry in the app for a price to attach to — six of the nine Takealot links reported missing
+were stocks the app had simply never listed.
+
+The list is now built from Cape Film Supply's own catalogue, which tags every product with
+its format, brand, film type and ISO, plus stocks the other shops carry that they do not.
+Newly listed: the whole Ilford range (Delta 100/400/3200, FP4, HP5, Pan F 50, XP2, SFX,
+Ortho), Kentmere Pan 100/400, Harman Phoenix and Phoenix II, CineStill 50D/800T/400D/BWXX,
+the Lomography range, Ektachrome E100, Kodacolor, AgfaPhoto APX 100/400 and Colour 400,
+Fomapan in every format, Kodak's respooled Vision cine stocks, Polaroid 600, SX-70 and
+i-Type, Instax Square and Wide, and the budget Takealot stocks (Lucky SHD 400, Bea's
+Choice, Crystal Film).
+
+**111 of the 112 now show a live price.** The one that does not, Kodak Pro Image 100, is
+genuinely not stocked by any of the seven shops. Every match was verified by running the
+shipping code against live shop data.
+
+**Film entries were showing the wrong logo.** They carried the logo of a *retailer* rather
+than the film's maker — Ilford FP4 was showing a stock photograph of a wine glass from a
+shop's website. Film now carries its maker's mark: Kodak, Ilford, Fujifilm, Foma and
+Harman, covering 81 of the 112 stocks. The rest show no logo rather than a wrong one.
+
+**Matching is stricter again, and had to be.** A match now needs *every* distinguishing
+word, not just one in common. With only one required, every Kodak Vision stock quoted the
+cheapest Vision roll and every Instax pack quoted the Mini price. Also fixed along the way:
+
+- Speeds welded into a word are read, so APX 100 stops quoting APX400's price.
+- 24 and 36 exposure rolls are 35mm, so a 120 entry no longer quotes a 36-exposure roll.
+- Phoenix and Phoenix II are told apart.
+- Numbers that are not film speeds now identify a product, which is what separates
+  Polaroid 600 from SX-70 and Vision3 5219 from 5207.
+
+**Takealot gets 12 more searches**, including the plain-language ones that surface stock
+sold under unfamiliar brand names.
+
+**Amazon was looked at and is not usable.** amazon.co.za answers every request, including
+its own home page, with an empty bot-check response and no product data. There is no public
+product feed; their Product Advertising API needs an affiliate account with qualifying
+sales. Nothing can be read from it without credentials.
+
 ## v0.0.19
 
 **The app is now called AnalogSA**, with the camera-and-flag logo as its launcher icon and
