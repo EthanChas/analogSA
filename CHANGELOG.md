@@ -1,5 +1,28 @@
 # Changelog
 
+## v0.0.9
+
+**Selected filters are now green.** A checked chip was the same tone as the card behind it
+and effectively invisible. Selection is now the one place colour appears in an otherwise
+monochrome app, in both light and dark.
+
+**Brand logos are sized properly.** The Pentax wordmark is five times wider than it is
+tall while the Canon one is nearly square, so a fixed height made Canon look tiny beside
+it. Logos now fit inside a box rather than to a height, letting each grow until it hits
+whichever edge constrains it.
+
+**The booklet verdict scale is gone.** The field guides carried their own seven-point
+scale, which was not comparable with the community ratings shown for both brands. It has
+been dropped from 120 lenses and from the detail and comparison screens.
+
+**Transitions.** Screens slide and fade rather than cutting, and list items rise into place
+in sequence. Everything is 220ms or under, so nothing feels slower for it.
+
+**Modularity.** Every data file and asset folder is now named in one place, `Catalogue.kt`,
+which documents what adding a brand, camera bodies, a directory section or photographs
+actually takes. The README carries the same table. Most additions are data-only: the list,
+search, filter, comparison and detail screens are generic.
+
 ## v0.0.8
 
 **Category selection is now inside the Filters sheet**, which is where it should have been

@@ -104,6 +104,21 @@ no data say they are empty rather than being padded.
 
 ---
 
+## Adding to it
+
+The screens are generic and driven by the bundled data, so most additions are data-only.
+`Catalogue.kt` is the single place every data file and asset folder is named.
+
+| To add | Do this |
+|---|---|
+| A brand | Append its lenses to `lenses.json` with `brand` set, and drop a logo at `assets/brand_logos/<brand lowercased>.png`. The brand appears on the home screen with its own counts; without a logo it falls back to a generic glyph. |
+| Camera bodies | Append to `cameras.json` with `brand` set. Bodies are filtered by brand, so a brand with none shows none rather than another brand's. |
+| A directory section | Append an object to `directories.json`, then add one row to `Menus.kt`. The list, search, tag filter and detail screen need no further code. |
+| Photographs | File them under `assets/photos/` for lenses or `assets/camera_photos/` for bodies and reference the filenames from the record. |
+
+Filters are also generic: the year, rating and price ranges take their bounds from whatever
+data is present, and a control hides itself when the data cannot support a range.
+
 ## Building
 
 Requires JDK 17 or newer and the Android SDK (compileSdk 35).
