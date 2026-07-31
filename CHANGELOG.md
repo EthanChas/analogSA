@@ -1,5 +1,19 @@
 # Changelog
 
+## v0.0.24
+
+**Nikon is on the home screen**, with its logo. No lenses or bodies yet, same as Minolta.
+
+**Brand logos with no colour of their own now follow the theme.** The Nikon wordmark is
+plain black, which would have disappeared against the dark theme. Rather than repainting
+the artwork — as the Minolta wordmark needed, because it sits beside a blue symbol that had
+to stay blue — a monochrome mark is now tinted with the same colour the text uses, so it
+comes out near-black on light and near-white on dark.
+
+The test is the mark's own saturation, not a list of brand names, so it keeps working for
+whatever gets added next: Pentax at 255, Canon at 235 and Minolta at 196 are left exactly
+as drawn, and Nikon at 0 is tinted.
+
 ## v0.0.23
 
 **Minolta is on the home screen**, with its logo. No lenses or bodies yet — the category is
