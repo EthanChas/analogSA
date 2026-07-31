@@ -1,5 +1,25 @@
 # Changelog
 
+## v0.0.10
+
+**Colour by rating**, off by default, under Settings. When on, the rating figure is tinted
+so quality reads at a glance: 1–2 red, 3–4 orange, exactly 5 grey, 6–7 light green, 8–9
+strong green, 10 purple. Values between bands take the band above, since only a flat 5 is
+meant to read as neutral. The setting shows a colour key while it is on, and the palette is
+lifted in dark mode so every band stays legible. Anything unrated is left alone.
+
+**Canon ratings roughly tripled — 96 lenses now rated, up from 32.** The rating scraper had
+been pointed at the wrong catalogue: `c_1` on allphotolenses is Contax/Yashica, not Canon
+EF, so the largest Canon series had never been read at all. EF and EF-S are now included,
+which took the collected data from 94 focal/aperture keys to 204, and the lenses matched to
+a listing from 118 to 295.
+
+Canon coverage is still well behind Pentax — 96 of 462 against 153 of 220 — because the
+source genuinely has few Canon reviews, not because of the scrape.
+
+All ratings remain on the ten-point scale. The allphotolenses scores are out of five and
+are doubled on import; nothing in the dataset now sits above 10.
+
 ## v0.0.9
 
 **Selected filters are now green.** A checked chip was the same tone as the card behind it
