@@ -1,5 +1,22 @@
 # Changelog
 
+## v0.0.27
+
+**The watch button and live stock are back on every film stock.** They were missing from 29
+of the 112, including all the Fomapan.
+
+The whole live-stock card — prices, the refresh button, the progress bar and the WATCH
+button — was only shown when a listing happened to carry a price field. Those 29 stocks are
+the ones added by hand from shops other than Cape Film Supply, and none of them had a price
+recorded, so the entire section was hidden and there was no way to watch them. Whether
+something is buyable is a property of the section it sits in, not of how complete its record
+happens to be, and that is now what decides it. Six chemicals were hidden the same way and
+are also fixed.
+
+**Prices filled in for those 28 stocks**, read from the shops that actually stock them, so a
+page is not blank before its first refresh. Film stocks with a price go from 83 of 112 to
+111 of 112; the last is Kodak Pro Image 100, which no shop on the list carries.
+
 ## v0.0.26
 
 **Fixes watched items disappearing.** This was caused by v0.0.20, where the film list was
