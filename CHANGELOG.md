@@ -1,5 +1,34 @@
 # Changelog
 
+## v0.0.13
+
+**Live prices and stock for film and chemicals.** Open a film stock or a chemical and tap
+Refresh prices and stock: the app reads the product feeds of five South African shops and
+shows what each has, at what price, and whether it is in stock. Tapping a listing opens it
+in the shop.
+
+Shops read: Truth Photographic Company, Outdoorphoto, Cameraland, ORMS Direct and Expired
+Film — about 3,000 listings, with 35 of the 38 film stocks finding a live match.
+
+Truth Photo needed tracking down: truth.photo is a static site with an embedded Shopify
+shop, so its products live on a separate domain, and the app reads that shop's feed.
+
+Only shops publishing a machine readable feed are used — Shopify's `products.json` and the
+WooCommerce Store API — which is why this works where scraping product pages would not.
+Nothing is fetched until you press refresh, and results are cached with the time of the
+check shown, so a stale price is never presented as live.
+
+**Places get a Google Maps link rather than a star rating.** Reading Google ratings in an
+app needs their Places API and a billed key, and scraping them from search results is
+against Google's terms and breaks whenever the markup shifts. Repairers, labs, clubs and
+shops now have an Open in Google Maps button, which shows the rating, reviews and
+directions from Google itself with nothing to configure. Where the source PDF carried a
+map pin, that exact pin is used.
+
+**Lenses deliberately have no live stock.** Shop listings do not distinguish lens
+generations, so a 16-35mm f/2.8 II matched the I and the III as well and showed a price
+belonging to none of them.
+
 ## v0.0.12
 
 **The supplied Canon ratings are in.** 151 lenses scored, every line parsed and every name
