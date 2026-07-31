@@ -1,5 +1,26 @@
 # Changelog
 
+## v0.0.11
+
+**Photographs for the vintage Canon lenses.** 46 images from Wikimedia Commons covering
+113 FD, FL and R lenses, each carrying its photographer and licence, shown beneath the
+image and changing as you page through. Lens photographs now use the same credited format
+as the camera ones; the field-guide scans, being your own, show no credit line.
+
+A file is only accepted when its title names the maker, the mount and the focal length,
+because a search for "Canon FD 50mm" otherwise returns camera bodies and unrelated lenses.
+That is why coverage is 58 of 106 focal groups rather than everything.
+
+**Why the remaining lenses have no rating**, having checked each against the source:
+
+- 199 are listed on allphotolenses but nobody has reviewed them
+- 131 have no listing at that focal length for that mount
+- 36 have a listing at that focal length but for a different maximum aperture — a
+  genuinely different lens, so deliberately not matched
+
+Canon RF is absent entirely because allphotolenses has no RF catalogue; the page exists
+and contains no lenses. R and FL are catalogued but almost nothing there is reviewed.
+
 ## v0.0.10
 
 **Colour by rating**, off by default, under Settings. When on, the rating figure is tinted
