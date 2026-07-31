@@ -1,4 +1,4 @@
-# analogSA
+# AnalogSA
 
 An offline reference app for shooting film in South Africa.
 

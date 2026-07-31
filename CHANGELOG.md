@@ -1,5 +1,41 @@
 # Changelog
 
+## v0.0.19
+
+**The app is now called AnalogSA**, with the camera-and-flag logo as its launcher icon and
+at the top of the home screen. The package id is deliberately unchanged, so this installs
+over your existing copy as an update rather than arriving as a second app.
+
+**Takealot is searched far more thoroughly.** Two things were limiting it. A search returns
+36 results however many exist — "35mm film" alone has 51 — and the cursor to the rest was
+never followed. And the eight searches were mostly generic ("kodak film"), which buries
+individual stocks. There are now 41 searches, by stock name as well as by brand, and each
+one is paged to the end. Takealot went from 273 products to 1,160, and from 7 of your film
+stocks to 11.
+
+**A progress bar during refresh**, naming each shop as it is read. With seven shops and 41
+Takealot searches a refresh is no longer instant, and it should look like work rather than
+a hang.
+
+**Matching got stricter again, because a bigger catalogue means more collisions.** Searching
+harder turned up three listings wearing film names: a Yamaha T-MAX key shell, a Bronica
+"Split Image" focus screen, and a "Vision" security camera — each one would have shown as a
+film price. A match now also has to agree on the maker, with the trade names that stand for
+it (Eastman is Kodak, Kentmere is Ilford, Instax is Fujifilm).
+
+Three more corrections found while testing:
+
+- Spacing no longer breaks a match: "Pro Image" now finds "ProImage".
+- "120mm", which is how several shops write medium format, is recognised as 120. A 35mm
+  roll was quoting a 120 price through that gap.
+- 24 and 36 exposure rolls are told apart, so Fomapan 100 135-36 stops quoting the 135-24
+  price.
+
+Across all seven shops, 34 of 38 film stocks now show a live price, and every match was
+checked by hand. Of the four without one, three are genuinely not stocked anywhere on the
+list (Pro Image 100, and Portra 400 in 4x5) and one is a catch-all entry with no single
+product behind it.
+
 ## v0.0.18
 
 **Cape Film Supply is now checked for stock.** It is the first shop on the list that sells
