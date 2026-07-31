@@ -1,5 +1,27 @@
 # Changelog
 
+## v0.0.26
+
+**Fixes watched items disappearing.** This was caused by v0.0.20, where the film list was
+rebuilt and every stock renamed — "FOMAPAN 100 (135-24)" became "Foma Fomapan 100". A watch
+is stored under the listing's name, so every existing watch was left pointing at a name that
+no longer existed: the button showed unwatched and the hourly check went looking for
+products that were not there.
+
+Watches are now pointed back at their listings automatically, by matching on the words a
+stored name shares with a current one, with the film format required to agree so a 35mm
+watch cannot land on the 120 roll of the same stock. Of the stocks watchable before the
+rebuild, 23 of 24 reattach; the one that does not is the old "Kodak B&W films (various)"
+catch-all, which had no single product behind it. **Nothing needs to be re-tapped.** This
+also runs in the background worker, which can start without any screen being opened.
+
+**Film stocks sold in more than one format now have distinct names.** The rebuild left 29
+names duplicated across 63 entries — three separate listings were all called "Foma Fomapan
+100". Since a watch is keyed by name, watching one silently watched all of them, and they
+shared a single stock state between three different products. Names that clash now carry
+their format: "Foma Fomapan 100 (35mm)", "(120)", "(4x5 sheet)". Stocks sold in only one
+format are unchanged.
+
 ## v0.0.25
 
 **120 Minolta lenses**, so Minolta is no longer an empty category. The app now holds 802
