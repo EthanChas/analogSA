@@ -1,5 +1,51 @@
 # Changelog
 
+## v0.0.15
+
+**Watch stock.** Open a film stock or chemical and tap **Watch stock**. Every hour the app
+re-reads the shop feeds and tells you when something changes:
+
+- it comes **back into stock**, with the cheapest price and how many shops have it
+- it **sells out** everywhere being checked
+- it drops to the **last few**
+
+Notifications fire only on a change, never on "still in stock" — an hourly reminder that
+nothing happened is noise, and noise gets muted, which would defeat watching entirely.
+The state when you start watching is recorded first, so the next check compares against
+that rather than announcing a return from nothing.
+
+A failed fetch is treated as a failure and retried, never as "everything sold out".
+
+One limit worth knowing: **low-stock warnings need a shop to publish how many are left.**
+The WooCommerce Store API does, so Expired Film reports it; Shopify's public feed gives
+availability only, so Truth Photo, Outdoorphoto, Cameraland and ORMS can report in or out
+of stock but never "three left". The app says so next to the button rather than implying
+the warning covers everything.
+
+The hourly check is scheduled only while something is watched, stops when the last item is
+unwatched, and survives reboots.
+
+**Logos for the directory.** 94 businesses now carry their own logo — labs, repairers,
+film retailers, forums, schools and gear shops. Each was taken from that business's own
+website, preferring what the site itself declares to be its logo: a schema.org
+Organization logo first, then the image it uses when shared, then its touch icon, then its
+favicon. 69 came from the sites directly and 17 from a favicon service.
+
+**The logo always appears on a listing's own page.**
+
+**New setting: Show logos in lists.** With it on, each row in a directory carries its logo
+above the name, so a lab or repairer is recognisable while scrolling rather than having to
+be read. Off by default, and rows without a logo keep their normal text layout. The choice
+takes effect as soon as you return from Settings.
+
+Logos are cached in memory once decoded, because a scrolling list asks for the same
+handful repeatedly and decoding each time would make it stutter.
+
+Coverage by section: forums 7 of 7, gear websites 15 of 18, clubs 13 of 39, repairers 16
+of 26, labs 10 of 13. Anything without a website has nothing to fetch, and a few sites
+publish no usable image at all — Truth Photo declares an image that returns a 404 and has
+no favicon either.
+
 ## v0.0.14
 
 **Brand logos are balanced by area rather than by a bounding box.** The Pentax wordmark is
