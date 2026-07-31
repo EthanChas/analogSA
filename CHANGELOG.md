@@ -1,5 +1,16 @@
 # Changelog
 
+## v0.0.16
+
+**The Truth Photo logo is in**, covering all 17 of their listings across labs, film stocks
+and chemicals. It is pure white artwork on transparency, drawn for a dark background, so
+in light mode the app puts a dark backdrop behind it rather than letting it disappear into
+a white card — the contrast handling added in v0.0.15 doing exactly what it was written
+for.
+
+Every logo reference in the directory now resolves: 111 listings pointing at 87 files,
+with nothing unresolved and nothing orphaned.
+
 ## v0.0.15
 
 **Watch stock.** Open a film stock or chemical and tap **Watch stock**. Every hour the app
