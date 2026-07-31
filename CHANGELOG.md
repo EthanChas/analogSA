@@ -1,5 +1,33 @@
 # Changelog
 
+## v0.0.25
+
+**120 Minolta lenses**, so Minolta is no longer an empty category. The app now holds 802
+lenses across three brands.
+
+They come in two families, and the app keeps them apart because the evidence behind them is
+genuinely different:
+
+- **Maxxum / Dynax AF (A mount)** — 92 lenses, 1985 to 2006, each with a Dyxum
+  crowd-sourced score out of 10, its year, its review count and a link to its entry.
+- **MC / MD Rokkor (SR mount)** — 28 manual-focus lenses. There is no crowd-sourced score
+  for these anywhere, so rather than invent one they carry a reputation tier and the
+  written basis behind it, quoted from the review it came from.
+
+That means Minolta lenses will look different from Pentax and Canon under the colour-by-rating
+setting: the AF lenses are tinted, the Rokkors are not, because they have no number to tint
+by. That is deliberate — an invented score would be worse than an honest blank.
+
+Two things worth knowing about the data:
+
+- The AF 3x-1x Macro is specified by magnification rather than focal length, so it sorts
+  without a focal length. Its aperture is recorded.
+- One lens in the list, the AF DT 11-18mm, is Minolta's APS-C line and cannot cover a 35mm
+  frame. It is kept, but marked as not usable on a film body.
+
+Also fixed: a stray character that had been showing in place of the separator in Canon lens
+feature and source lines.
+
 ## v0.0.24
 
 **Nikon is on the home screen**, with its logo. No lenses or bodies yet, same as Minolta.
