@@ -1,5 +1,17 @@
 # Changelog
 
+## v0.0.21
+
+**A one-time notice before the gear pages.** Opening Equipment information for the first
+time now explains that the prices are estimates, may be outdated or wrong, and that the
+condition of a lens directly affects what it is worth — fungus, haze, separation or a stiff
+focus ring can put the same lens at a fraction of the figure shown. It appears once and
+then not again.
+
+**A support screen**, on the home menu under a heart, with the Ko-fi page
+(ko-fi.com/ethanwispy) and an address for corrections and inquiries
+(ethanchasb@gmail.com). Both also appear at the bottom of Settings.
+
 ## v0.0.20
 
 **The film list goes from 38 stocks to 112.** This was the real reason films looked
