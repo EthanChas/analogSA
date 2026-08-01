@@ -1,5 +1,29 @@
 # Changelog
 
+## v0.0.33
+
+**The cheapest price now shows next to each film in the list**, so the whole list can be
+read at a glance instead of opening every stock in turn. It is the lowest price a shop is
+confirmed to actually have in stock — an unverifiable price is not a price you can go and
+pay, so out-of-stock and un-refreshable listings are left out of it.
+
+Working that out means walking several thousand offers per film, so it is done once in the
+background when the list opens rather than while rows are being drawn. The search bar shows
+its progress bar until the prices land, and the list is usable the whole time.
+
+**Amazon film is in, marked as un-checkable.** Amazon publishes no product feed and blocks
+reading its pages — the app cannot see its stock and never will — so 20 listings are
+recorded by hand and shown in orange with **CANNOT VIEW LIVE STOCK — CHECK MANUALLY**. They
+sort below anything the app can verify, and they never count toward the cheapest-in-stock
+price in the list, because nobody can confirm they are in stock.
+
+17 of those attach to films already in the app, including three that took a new rule to
+match. Amazon sells Kodak cine stock respooled under reseller names — "Bea's Choice 5219",
+"YUR Films Double-X 5222" — so the maker never agrees even though it is literally the same
+emulsion. Where both sides quote the same Kodak emulsion code, that now settles it and the
+maker check steps aside. The remaining three are unbranded ECN-2 film with no equivalent
+listing in the app.
+
 ## v0.0.32
 
 **A much better Olympus logo, and Yashica finally has one.**
