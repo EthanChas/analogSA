@@ -1,5 +1,28 @@
 # Changelog
 
+## v0.0.31
+
+**Yashica and Olympus are on the home screen**, taking the app to six brands.
+
+**92 Yashica lenses** come with it, so Yashica arrives with a catalogue rather than empty.
+The app now holds 1,005 lenses. They are grouped by mount, which is what decides whether a
+lens will physically fit:
+
+- **C/Y** (46) — the Contax/Yashica bayonet, from 1975
+- **M42** (34) — the Auto Yashinon, Yashinon-DS, DX and Yashikor screwmount lenses
+- **Yashica AF** (5) — the short-lived early-1980s autofocus mount
+- Plus a handful listed on other mounts: Contax G, Pentax K, T2 and Praktica B
+
+**73 carry a rating; 19 do not.** Unlike the Nikkors, a real crowd-rated source exists here,
+so these are AllPhotoLenses user star averages doubled onto the same /10 scale as the rest.
+The nineteen with no votes logged are marked unrated rather than guessed at — the
+catalogue's own note points out these tend to be rarer variants or duplicate listings, not
+necessarily poor lenses. Each record carries a note on what its mount will and will not fit,
+and Contax-branded Carl Zeiss lenses are deliberately excluded even though they share the
+C/Y mount.
+
+**Olympus is listed with its logo but no gear yet**, the same way Minolta and Nikon started.
+
 ## v0.0.30
 
 **111 Nikon lenses**, so Nikon is no longer an empty category. The app now holds 913 lenses
