@@ -1,5 +1,23 @@
 # Changelog
 
+## v0.0.37
+
+**Your name now travels with your code.** Sharing asks for it once, before it will
+generate anything, and it can be edited from the same screen afterwards.
+
+**Adding a friend no longer asks who they are** — the code says so. Paste it and they are
+filed under their own name straight away.
+
+**A second code from the same person updates their list rather than duplicating them**, and
+says what actually moved: how many items were added and removed on each of the owned and
+wanted lists. If nothing has changed since last time, it says that too, so re-adding a code
+is never a silent no-op you cannot tell apart from a successful update.
+
+The name is percent-encoded inside the code, so names containing a comma, a bar, an accent
+or a colon survive the trip intact. Codes made by the previous version still work — they
+simply carry no name, and adding one still asks who it belongs to. Codes made by this
+version can also be read by the previous one, which ignores the name and takes the lists.
+
 ## v0.0.36
 
 **Friends' equipment.** Your equipment now has two buttons: **Share mine**, and a blue
