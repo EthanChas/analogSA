@@ -1,5 +1,30 @@
 # Changelog
 
+## v0.0.36
+
+**Friends' equipment.** Your equipment now has two buttons: **Share mine**, and a blue
+**Friends' equipment**.
+
+Share mine turns your list into a code, shown as text and as a square. Send it however you
+like — it carries the list itself, so there is no account, no server, and nothing to sign
+up for. Add a friend takes a pasted code, asks who it belongs to, and files their gear
+under their name with the same I have / I want tabs. Tap anything of theirs to open it in
+your catalogue; hold a friend to remove them.
+
+**There is no scanner to install and no camera permission.** If someone sends the square
+instead of the text, any phone's own camera app will read it and hand back the code to
+paste. That keeps the whole thing to one text field.
+
+**Only what you have marked is shared.** Your notes, serial numbers, service history and
+shutter tests are never in the code.
+
+**Items are identified by name, not by position in the data files.** Positions shift every
+time gear is added, so two people on different versions would otherwise read each other's
+lists as entirely different lenses. Anything in a friend's list that your copy has never
+heard of is counted and reported rather than quietly dropped.
+
+A typical share is under 200 characters; 150 items still fits comfortably inside a QR code.
+
 ## v0.0.35
 
 **Lenses now tell you whether they fit a camera you own.** Once at least one body is marked
