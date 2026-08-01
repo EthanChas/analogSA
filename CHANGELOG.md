@@ -1,5 +1,33 @@
 # Changelog
 
+## v0.0.28
+
+**25 listings added from the r/FilmPhotoZA resource page**, checked one by one against what
+was already in so nothing is duplicated.
+
+- **Darkrooms is no longer empty** — the Wits School of Art darkroom and the Market Photo
+  Workshop. Both are teaching facilities closed to the public, which is recorded on each.
+- **Four Cape Town labs**: Lady & Co, Tothills Photo-chemists, Noyes Pharmacy and Gallery F.
+- **Eight communities**: Film My Soul in Johannesburg and Cape Town, the film photography
+  WhatsApp group, Vintage Film Trader SA, Vintage Camera Trader SA, Analogue Cape Town,
+  Nightcrawlers, and the Richmond Studio Cafe.
+- **Eleven sellers and suppliers**: Crystal Film SA (the Lucky stock already priced in the
+  film list), Skiet Film Cameras, Vintage Film Cameras, Red October, Film Camera Shop,
+  Frame CPT, Tracy Kahn, Bromix Nielzek, ANVL Leather, and two people who supply darkroom
+  chemistry and gear directly.
+
+**A countdown on watched items**, reading "Refresh in MM:SS" and ticking every second, so
+the hourly check is visible rather than something you have to take on trust. Android decides
+when a periodic job actually runs, so once it goes past due the line says so instead of
+counting into negative numbers.
+
+**Search now waits for you to stop typing**, showing a bar while it waits. Filtering eight
+hundred lenses on every keystroke was wasted work and made the list feel like it lagged
+behind the keyboard; it now runs once, a fifth of a second after the last letter.
+
+**The refresh in Settings has the same progress bar** as the one on a listing, naming each
+shop as it goes. It was the one long operation left with no feedback at all.
+
 ## v0.0.27
 
 **The watch button and live stock are back on every film stock.** They were missing from 29
