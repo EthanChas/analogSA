@@ -1,5 +1,19 @@
 # Changelog
 
+## v0.0.32
+
+**A much better Olympus logo, and Yashica finally has one.**
+
+The Olympus mark was lifted off a 400 x 140 screenshot and then scaled up, which left it
+soft. The replacement comes from a 1600 x 960 file that already carried proper
+transparency, so it only needed trimming and scaling down — no keying, no upscaling, and
+it is a third of the file size of the one it replaces.
+
+Yashica was showing the generic camera glyph. Its wordmark is plain black, so the app tints
+it to match the theme, the same as Nikon.
+
+All six brand logos now render from artwork at or above the size they are displayed at.
+
 ## v0.0.31
 
 **Yashica and Olympus are on the home screen**, taking the app to six brands.
