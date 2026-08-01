@@ -1,5 +1,32 @@
 # Changelog
 
+## v0.0.30
+
+**111 Nikon lenses**, so Nikon is no longer an empty category. The app now holds 913 lenses
+across four brands.
+
+These are the manual-focus F-mount Nikkors — Pre-AI, AI and AI-S, plus the five Series E
+lenses — with autofocus AF/AF-D/AF-S deliberately left out as a separate, much larger
+generation. They are grouped by **mount generation**, because that is the distinction that
+actually matters when buying one: a Pre-AI lens will not meter on many bodies without being
+converted.
+
+- **AI-S** (33), **AI / AI-S** (24), **Pre-AI (F)** (18), **Pre-AI / AI** (18),
+  **Pre-AI / AI / AI-S** (10), **Series E** (5), **AI** (2), **AI-P** (1)
+
+**41 carry a rating out of 10; 70 do not**, and the difference is recorded on each record
+rather than hidden. The catalogue's own note is explicit that no crowd-sourced database
+exists for manual Nikkors, unlike PentaxForums or Dyxum, so those 41 scores are a hand-built
+synthesis of written reviews. Each says so in its source line: they are directional, not a
+crowd-sourced average. The other 70 keep a description and no invented number.
+
+Every rated lens links to the review it came from — Photography Life, Casual Photophile,
+Richard Haw and others.
+
+The finer lens categories are kept as the source gave them, so Fisheye, Perspective Control,
+Mirror/Reflex, Super-telephoto and the UV and Medical specialities are all searchable by
+name rather than flattened into "prime" and "zoom".
+
 ## v0.0.29
 
 **57 Minolta camera bodies**, 1947 to 2003, so Minolta now has both lenses and cameras. The
