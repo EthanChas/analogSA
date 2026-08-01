@@ -1,5 +1,29 @@
 # Changelog
 
+## v0.0.29
+
+**57 Minolta camera bodies**, 1947 to 2003, so Minolta now has both lenses and cameras. The
+app holds 256 bodies across three brands. Nine series:
+
+- **SR-mount SLR** (15) — SR-2 through the X-700, including the SR-T 101 and the XD
+- **Hi-Matic** (15) — the 1962 original through to the GF
+- **Maxxum / Dynax / Alpha AF** (13) — the 7000 through to the Dynax 60
+- **Minolta 35 rangefinder** (3) — the Leica-thread bodies Minolta started with
+- **110 and 126 pocket** (3), **Other** (3), **Leica collaboration** (2) — the CL and CLE
+- **16 subminiature** (2), **Premium compact** (1) — the titanium TC-1
+
+Each carries its years, mount, format, focus type, lens compatibility and what made it
+distinct — the SR-7 being the first 35mm SLR anywhere with a built-in meter, the XD being
+the first with both automatic exposure modes, the Maxxum 7000 being the camera that proved
+autofocus SLRs worked, and the Hi-Matic that John Glenn took into orbit.
+
+Where the source declines to itemise a family — the sixteen subminiatures, the Autopak line,
+the Freedom and Riva compacts — that family is one entry rather than a set of invented model
+years. The Vectis APS system and the half-frame Repo are listed for completeness, flagged as
+noted in passing rather than covered in detail.
+
+No photographs yet.
+
 ## v0.0.28
 
 **25 listings added from the r/FilmPhotoZA resource page**, checked one by one against what
