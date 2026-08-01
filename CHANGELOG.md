@@ -1,5 +1,47 @@
 # Changelog
 
+## v0.0.34
+
+**Your equipment** — the app now keeps track of what you own and what you are after. It
+sits above the brands in Equipment information, with two tabs, I have and I want.
+
+Every lens and camera page has **I have this** and **I want this** at the top. Tapping the
+one already set clears it, so there is no third button meaning "neither".
+
+**A record for anything you own.** Notes and a serial number for lenses and bodies alike,
+and for bodies also a service history and a maintenance checklist: light seals, mirror
+foam, shutter speeds, meter, battery contacts, focus screen.
+
+**Shutter speed accuracy.** Fire each marked speed with a tester, enter the time it
+actually measured, and the error is shown in stops rather than milliseconds — a third of a
+stop means the same thing at 1/1000 as it does at one second, and a millisecond does not.
+Within a third of a stop is green, within two thirds orange, beyond that red, since a third
+is roughly where an exposure error starts to show on film. The worst speed is summarised at
+the top of the table and beside the camera in your list, so a body that needs attention is
+visible without opening it.
+
+**Service reminders.** Record when a body was last given a clean, lubricate and adjust and
+the app tells you when the next one is due — default every seven years, adjustable to
+three, five or ten. Lubricants stiffen and seals perish whether a camera is used or not,
+which is exactly the sort of thing nobody remembers years later. Each camera is announced
+once per due date rather than nagging daily, and the reminder is checked once a day since
+the event is years away.
+
+All of it stays on the phone. None of it is uploaded — a serial number and a service
+history are not things to hand to a server — and it is lost if the app is uninstalled.
+
+**Multi-packs are labelled.** A blue **KIT / PACK** tag now sits above any listing that
+sells more than one: five-packs, 100ft bulk rolls, 2+1 free, double packs and starter kits.
+A five-pack of Portra at R2 150 is not dearer film, but the price alone does not say so.
+Listings marked "(Single)" or "(1 Pack)" are deliberately left alone.
+
+**Wanted items are starred** in the lens and camera lists, beside the rating, so a wish
+list is visible while browsing rather than only in its own screen.
+
+**Logos in lists and colour-by-rating are now on by default.** Both were off, which meant
+most people never saw either. Anyone who has already turned one off keeps it off — a stored
+choice still wins over the default.
+
 ## v0.0.33
 
 **The cheapest price now shows next to each film in the list**, so the whole list can be
