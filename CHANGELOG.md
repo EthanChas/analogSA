@@ -1,5 +1,23 @@
 # Changelog
 
+## v0.0.35
+
+**Lenses now tell you whether they fit a camera you own.** Once at least one body is marked
+"I have this", every lens page says either which of your cameras it goes on, or plainly
+that none of them take that mount — which is the more useful of the two, since it is the
+mistake this is here to prevent.
+
+Only native fits count. Almost anything can be adapted to almost anything given enough
+money and a lost infinity focus, and a note saying "compatible" has to mean you can put it
+on and shoot. So:
+
+- K, M, A and KA lenses fit every K-mount body, autofocus ones included, but not the 645
+  or 67 medium format bodies.
+- FD and FL share a mount and are treated as interchangeable.
+- M42 screw is kept separate from the K bayonet.
+- EF-S, EF-M and RF are digital-only and match no film body at all.
+- Minolta A and Minolta SR are different mounts and are not confused with each other.
+
 ## v0.0.34
 
 **Your equipment** — the app now keeps track of what you own and what you are after. It
