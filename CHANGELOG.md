@@ -1,5 +1,42 @@
 # Changelog
 
+## v0.0.45
+
+**Price history on watched items.** The hourly stock check was already fetching every
+shop's price and then keeping only whether anything was in stock. It now keeps the number.
+A listing you have been watching shows a sparkline, the cheapest it has been in 90 days and
+the date that was, and how far above that it is sitting today. A manual refresh counts as a
+reading too, so history builds up just from browsing.
+
+Only the cheapest in-stock price is kept, not a series per shop, because the useful figure
+is what you would actually have paid. Nothing in stock records no reading at all rather than
+a zero, so the gap in the line is real.
+
+**Notifications on a price drop**, not only on a restock. A fall of R10, or five percent,
+whichever comes first, so rounding and exchange-rate drift stay quiet. If it is also the
+cheapest in 90 days, the notification says so.
+
+**Compare labs.** A button on the labs list opens all 17 side by side: develop price from,
+turnaround in working days, and which chemistries each runs, sortable by price, speed or
+name and filterable by process. Seven of the seventeen publish a price. The other ten sort
+to the bottom and say "not published" rather than being quietly treated as free, which is
+what sorting an unknown as zero would have done.
+
+**Battery guide**, under Other. Six cells, four of them long dead, with what to put in
+instead and what it does to your meter. A PX625 replaced with a 1.5V alkaline makes the
+meter read the scene brighter than it is and under-exposes by half a stop to a stop, which
+is the single most common reason a meter that looks fine is not. Zinc-air, MR-9 adapter,
+WeinCELL and alkaline are each given with their real trade-offs.
+
+Camera pages whose battery is one of these now carry the warning directly, with a link
+through to that cell. Where the catalogue records only "1.35V mercury cell" without naming
+it, the warning says exactly that instead of guessing a part number, since a Spotmatic told
+to buy a PX625 when it wants a PX400 has been misinformed rather than helped.
+
+**Kameraz added**, in Johannesburg. Contact details filled in for RGB Pixel Lab, Ricky,
+Eugene Lin, Tracy Kahn, Outdoorphoto and Ludwig's, and the two duplicate Radiolens rows
+merged into one.
+
 ## v0.0.44
 
 **125 digital-only Canon lenses removed**: 98 RF, 15 EF-M and 12 EF-S, running to 2026. No
