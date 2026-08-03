@@ -1,5 +1,49 @@
 # Changelog
 
+## v0.0.40
+
+**Mamiya is on the home screen**, with its logo. No lenses or bodies yet.
+
+## v0.0.39
+
+**61 Nikon camera bodies**, 1948 to 2004, so Nikon is no longer lenses-only. Seven series:
+the professional F line, the Nikkormats, the manual-focus enthusiast bodies, the autofocus
+F and N series, the pre-F rangefinders, the Nikonos underwater cameras, and the APS and
+premium compacts. Autofocus bodies keep both names, since an F-801 and an N8008 are the
+same camera on different continents. The 111 Nikkor lenses already in the app now have 43
+bodies to fit.
+
+**Twelve Nikon history pieces**: the SP, F, F2, F3, F5, F6, FM2, FM3A, Nikkormat FTN,
+Nikonos V, L35AF and 28Ti.
+
+**39 digital bodies removed.** All of them were Pentax: thirty APS-C DSLRs, two full-frame,
+the K-01, the four Q bodies and the 645D and 645Z. Canon had none to remove; that list was
+built from a film-only source in the first place.
+
+The cull was done on the format, not the lens mount. Pentax's SF, Z and MZ film bodies all
+use the KAF autofocus mount, so filtering on the mount would have deleted twenty-three film
+cameras along with the digital ones. `Mounts` also no longer describes KAF as digital-only,
+which was wrong, and now recognises the Nikon S and Nikonos mounts.
+
+## v0.0.38
+
+**History / Philosophy**, a drop-down on the cameras that earned one. Twenty-five bodies
+carry a piece of about two hundred words covering four things: what kind of camera it
+actually is, why it mattered at the time, what the company was trying to do and believed
+it was for, and where it stands today — who shoots it now, what it costs in reputation,
+and what to check before buying one.
+
+- **Pentax** — Asahiflex I, Asahi Pentax, Spotmatic, K1000, MX, LX, 6x7
+- **Canon** — Canon P, Pellix, F-1, New F-1, AE-1, A-1, T90, EOS 650, EOS-1V, Canonet G-III QL17
+- **Minolta** — SR-T 101, XD, X-700, Maxxum 7000, Hi-Matic, Hi-Matic 7SII, CLE, TC-1
+
+Deliberately not every body. A note on a camera that changed how the industry worked is
+worth reading; the same treatment on every budget variant would be padding, and would
+teach people to skip the section. The other 231 bodies simply do not show the card.
+
+It is collapsed by default, because someone looking up a flash sync speed should not have
+to scroll past an essay to reach the table.
+
 ## v0.0.37
 
 **Your name now travels with your code.** Sharing asks for it once, before it will
