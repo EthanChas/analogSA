@@ -1,5 +1,26 @@
 # Changelog
 
+## v0.0.44
+
+**125 digital-only Canon lenses removed**: 98 RF, 15 EF-M and 12 EF-S, running to 2026. No
+film camera ever made takes any of them. This is the lens half of the cull done to the bodies
+in v0.0.40, which was never followed through. Canon goes from 462 lenses to 337.
+
+EF stays. It is not vintage, but thirteen of the Canon film bodies in the app take it, from
+the EOS 650 of 1987 to the EOS 300 of 2004, and it is the only autofocus mount you can shoot
+film with. `Mounts` still knows RF, EF-S and EF-M as digital-only, so re-adding one by
+accident cannot make it look compatible.
+
+**Records whose catalogue entry has gone are now shown, not dropped.** They appear in Your
+equipment flagged **Not in the catalogue**, and tapping one offers to delete it or keep it.
+Silently vanishing is how the watch list and the equipment list both went wrong before, and
+a record can outlive its entry whenever something is renamed or removed.
+
+**Fixed a data-loss path in the v0.0.43 migration.** A record whose stored position was past
+the end of the current catalogue was cleared before a new home for it had been found, so it
+was deleted instead of carried over. Nothing is cleared now until the destination is known.
+Shortening the lens list in this release is exactly the case that would have triggered it.
+
 ## v0.0.43
 
 **Fixed: your equipment turning into other cameras.** Records were filed under the item's
