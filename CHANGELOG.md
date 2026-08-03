@@ -1,5 +1,16 @@
 # Changelog
 
+## v0.0.42
+
+**The dead "Refresh prices and stock" button is gone from lens and camera pages.** It was
+already hidden on lenses, but camera bodies share the same layout and never hid it, so every
+camera page carried an empty offers card with a button that did nothing when pressed.
+
+Neither screen was ever going to work. Shop listings do not distinguish lens generations, so
+a 16-35mm f/2.8 II matches the I and the III as well and reports a price that belongs to none
+of them, and there is no usable feed for second hand bodies at all. Film and chemicals keep
+their offers card, where the lookups are real.
+
 ## v0.0.41
 
 **20 Olympus camera bodies**, so Olympus is no longer an empty badge. The whole OM line from
