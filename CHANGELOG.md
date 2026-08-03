@@ -1,5 +1,27 @@
 # Changelog
 
+## v0.0.43
+
+**Fixed: your equipment turning into other cameras.** Records were filed under the item's
+position in the catalogue, not the item. The position is a property of the list, so removing
+the 39 digital Pentax bodies and adding 61 Nikons renumbered everything after them, and every
+saved record silently came to rest on a different camera. An AE-1 became a Canonet.
+
+Records are now filed under the brand and the name, which do not move when the catalogue is
+rebuilt. This class of bug cannot happen again.
+
+**The records that already moved cannot be put back automatically.** There is no way to tell
+which version of the catalogue a given record was saved against, and guessing would just be a
+different wrong answer stated confidently. So every existing record is carried over intact,
+with its notes, serial, service history and shutter tests, and marked **Check this is right**
+in orange in Your equipment. Open one and you get two buttons: confirm it, or move the whole
+record to the right item, picked from the catalogue. Nothing you typed is lost either way.
+
+**22 Canon lenses renamed** so no two share a name. The source had dropped the version suffix,
+so the 1995 and the 2001 "EF 70-200mm f/2.8 L" were separate entries with identical names,
+which showed as two identical rows and would have collided under the new keys. They now carry
+their introduction year. They are different lenses and both are kept.
+
 ## v0.0.42
 
 **The dead "Refresh prices and stock" button is gone from lens and camera pages.** It was
