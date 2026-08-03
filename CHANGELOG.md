@@ -1,5 +1,26 @@
 # Changelog
 
+## v0.0.41
+
+**20 Olympus camera bodies**, so Olympus is no longer an empty badge. The whole OM line from
+the OM-1 of 1972 to the Cosina-built OM-2000 of 1997, the three Pen F half-frame SLRs, and
+the FTL, the odd M42 screwmount body Olympus sold for barely a year before the OM-1 arrived
+and made it pointless.
+
+**Nine Olympus history pieces**: the FTL, OM-1, OM-2, OM-3Ti, OM-4T/OM-4Ti, OM-10, OM-2000,
+Pen F and Pen FT. Forty-six bodies now carry one.
+
+**65 Mamiya-Sekor lenses**, so Mamiya is no longer an empty badge either. Twenty-seven in M42
+screw, nineteen on the 35mm E bayonet, eight for the 645 system, four for the RB67, and a
+handful in Exakta and other mounts. Fifty of them carry a rating.
+
+The M42 ones are the useful part for most people: they fit every M42 body in the app, which
+is nineteen Pentax screwmount cameras plus the Olympus FTL. `Mounts` now also knows the OM,
+Pen F, Mamiya E, Mamiya 645, Mamiya RB and Exakta mounts, and knows that none of them
+interchange, whatever the shared brand name suggests.
+
+**Ricoh and Leica are on the home screen**, with their logos. No lenses or bodies yet.
+
 ## v0.0.40
 
 **Mamiya is on the home screen**, with its logo. No lenses or bodies yet.
