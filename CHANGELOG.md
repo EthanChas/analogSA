@@ -1,5 +1,20 @@
 # Changelog
 
+## v0.0.50
+
+**The full C-41 spec is now written into both recipes**, rather than summarised around them.
+
+- **Temperature tolerances live on the steps.** The developer reads 37.6-38 °C and the other
+  baths 34.8-40.8 °C, so the range is in front of you while the bath is running instead of
+  a single number that looked stricter than the process actually is.
+- **The agitation is spelled out in words.** The timer can only count seconds, so it asks
+  for 3 seconds at each cue; the notes say that this means 2 inversions every 10 seconds,
+  which is the instruction you would actually be following.
+- **The stabiliser is marked as a minimum**, 1:10 rather than exactly 1:10, so going over
+  is understood to be fine.
+- The notes now name the contrast that makes the point land: black and white needs a
+  different time for every film and developer pairing, and C-41 deliberately does not.
+
 ## v0.0.49
 
 **The C-41 recipes now say the thing that matters about C-41: the process does not change
