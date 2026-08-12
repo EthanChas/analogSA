@@ -1,5 +1,29 @@
 # Changelog
 
+## v0.0.48
+
+**Fomapan 200 in Fomadon P**, taken from Foma's own datasheet for Fomapan 200 Creative
+rather than from a forum. Fomadon P is 5 to 6 minutes at 20 °C, so 5:30, or 3 minutes flat
+at 30 °C. Same chemistry and volumes as the Fomapan 100 recipe: Fomacitro stop, Fomafix P
+at film strength, optional pre-wash and wetting agent.
+
+**Two corrections to Fomapan 100**, both from the same datasheet:
+
+- The developer's opening agitation was 60 seconds. Foma's instruction, word for word, is
+  "continuously during the first 30 seconds, then during the first 10 seconds in every
+  minute", so it is now 30. The 60 was inside the range the original sheet gave, but it was
+  not what the manufacturer asks for, and it was not the midpoint the notes claimed either.
+- The Fomacitro step now records that it is poured from a 400 mL batch, which was in the
+  process and missing from the recipe.
+
+The datasheet confirms the 7 to 8 minute developer time for Fomapan 100, so that is
+unchanged.
+
+Both recipes now note the wash honestly. Foma ask for 15 minutes in running water above
+15 °C, and 30 minutes below it, which is a good deal longer than the 5 to 10 minutes in
+common circulation. Fomapan 200 uses Foma's figure, Fomapan 100 keeps the shorter one it
+came with, and both point at the Ilford wash sequence as the quick way to do it properly.
+
 ## v0.0.47
 
 **Fomapan 100 in Fomadon P**, as a built-in recipe. Six baths at 20 °C: optional pre-wash,
