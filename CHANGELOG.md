@@ -1,5 +1,33 @@
 # Changelog
 
+## v0.0.46
+
+**A development timer**, under Film. It ticks once a second, and when the tank needs
+picking up it buzzes once and dings. A big orange AGITATE banner covers the screen while
+you should be moving it, and a softer note tells you when to put it down again. Each bath
+ends on a three-note chime and a longer buzz, so a finished fixer never sounds like an
+agitation.
+
+**Recipes** are yours to build: any number of baths, each with a name, the chemical and
+dilution, a temperature, a time typed as m:ss, and an agitation scheme written the way the
+bottle writes it. Agitate for so many seconds to start, then for so many seconds every so
+many after that. Zero means never again, which is how stand development is described.
+
+Four built-in recipes to start from: black and white standard, the Ilford wash sequence,
+C-41 at 39 °C, and stand development. They can be copied but not overwritten, so the
+originals are always there to go back to.
+
+The built-ins deliberately leave the **developer time blank**. How long HP5 wants in DD-X
+depends on the film, the developer, the dilution, the temperature and how you like your
+negatives, and a number invented here would be a number somebody trusted. The sequence and
+the agitation are the parts that are the same for everyone, so those are what ship. C-41 is
+the exception and carries real times, because its times are fixed by the process rather
+than by taste.
+
+The sounds are generated rather than shipped, so no audio files were added to the app. The
+clock runs off elapsed real time rather than counting its own ticks, so a slow frame cannot
+make the developer run long, and the screen is kept awake while the timer is open.
+
 ## v0.0.45
 
 **Price history on watched items.** The hourly stock check was already fetching every
