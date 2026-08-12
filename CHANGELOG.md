@@ -1,5 +1,27 @@
 # Changelog
 
+## v0.0.49
+
+**The C-41 recipes now say the thing that matters about C-41: the process does not change
+with the film's speed.** ISO 100, 200, 400, 800 and 3200 colour negative all run on the same
+time, temperature and agitation. That is the entire reason the standard exists, and it is
+the opposite of black and white, where every film and developer pairing wants its own time.
+Both recipes are named "any ISO" so the point is made before you open them. The only thing
+that moves the developer is deliberately pushing or pulling.
+
+**A three-bath version added**, for kits with separate bleach and fixer, alongside the
+existing blix kit. Developer 3:15 at 37.6 to 38 °C, bleach and fixer 6:30 each, stabiliser
+1:10, with the other three baths tolerating 34.8 to 40.8 °C.
+
+Bleach and fixer are published as ranges, 3:00 to 6:30 and 2:45 to 6:30. Both are set to
+the long end, because under-bleaching and under-fixing both show on the negative and
+overdoing either does not.
+
+**Agitation corrected on both.** It was the black and white pattern, ten seconds every
+minute. C-41 wants two inversions every ten seconds after an opening ten, which is a
+different rhythm entirely: nineteen cues during the developer instead of three. The
+developer temperature also moved from 39 °C to 37.8.
+
 ## v0.0.48
 
 **Fomapan 200 in Fomadon P**, taken from Foma's own datasheet for Fomapan 200 Creative
