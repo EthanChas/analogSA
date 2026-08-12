@@ -1,5 +1,28 @@
 # Changelog
 
+## v0.0.47
+
+**Fomapan 100 in Fomadon P**, as a built-in recipe. Six baths at 20 °C: optional pre-wash,
+Fomadon P developer, Fomacitro stop, Fomafix P, wash, optional wetting agent. Foma publish
+ranges rather than numbers, so the times here sit in the middle of each one, and the notes
+record the ranges themselves: developer 7 to 8 minutes, stop 30 to 60 seconds, agitation 4
+to 5 inversions every 30 to 60 seconds, wash 5 to 10 minutes.
+
+**Search on the recipe list**, over the chemicals and step names as well as the recipe name.
+"Rodinal" or "fixer" is how you would look for a recipe you half remember, and the name you
+gave it six months ago is the thing you are least likely to recall.
+
+**Recipes share as a QR code**, the same way a collection does. The square carries the whole
+recipe rather than a reference to one, so it works between phones on different versions and
+without anything in common. Scan it with the other phone's own camera app and paste what it
+gives you, or send the code as text.
+
+The code percent-encodes every field before assembling it, so a chemical called
+"Rodinal 1+100 | fresh" cannot break the format, and an imported recipe always gets a new
+identity so it can never overwrite one of yours. Fomapan 100 comes to 883 characters, which
+fits a version 25 square comfortably. Anything long enough to be dense says so, and anything
+too long for a square at all says that instead of showing a broken one.
+
 ## v0.0.46
 
 **A development timer**, under Film. It ticks once a second, and when the tank needs
