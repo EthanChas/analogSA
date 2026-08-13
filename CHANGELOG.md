@@ -1,5 +1,26 @@
 # Changelog
 
+## v0.0.51
+
+**Fixed the timer freezing after a pause.** Skipping to the next bath while paused set the
+new step's baseline from the live clock while everything else was still reading the frozen
+one. The two disagreed by exactly the length of the pause, so pressing play left the
+countdown sitting still for that long before it started moving. Pause for twenty seconds,
+skip, play, and the timer did nothing for twenty seconds. Anything that moves the baseline
+now reads the same clock as everything else.
+
+**Fixed time being lost to the background.** The clock kept running while the app was away,
+as it should, but coming back moved on exactly one bath and started it from zero however
+long you had been gone. Fifteen minutes away during a 3:15 developer landed on the bleach at
+0:00, quietly throwing away twelve minutes. The overshoot now rolls forward through as many
+baths as it really covers, so the same case lands on the fixer at 5:15, which is where the
+tank actually is. Only the first of those is chimed, since the rest were missed anyway, and
+a note says how many passed while you were away.
+
+**Rewrote the resume branch as a plain if.** It relied on an assignment inside a `let`
+evaluating to `Unit` for the elvis that followed it to behave, which was correct by accident
+and would have broken silently the first time anyone changed that line.
+
 ## v0.0.50
 
 **The full C-41 spec is now written into both recipes**, rather than summarised around them.
