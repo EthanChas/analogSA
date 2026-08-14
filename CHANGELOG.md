@@ -1,5 +1,26 @@
 # Changelog
 
+## v0.0.52
+
+**A bath no longer runs straight into the next one.** When the time is up the run chimes and
+then holds, showing what just finished, what is next, and a button to start it. Nothing moves
+until you press it.
+
+This is how it should have worked from the start. Between two baths there is a tank to empty
+and refill, and that takes as long as it takes; rolling straight into the next timer meant
+every bath after the first ran short by however long the pour took.
+
+**The wait is counted and shown.** It runs from the moment the bath actually ended, not from
+the moment the app noticed, so a developer left sitting while you were doing something else
+reports the overrun instead of quietly starting the clock again when you come back.
+
+Pause and skip are hidden while it is waiting, since there is nothing running to pause and
+nothing to skip past. Reset still works, and skipping a bath early is still the button.
+
+Because the run now stops at every boundary, coming back from the background can no longer
+race through several baths at once. It waits at the first one it reached, which is where the
+tank really is.
+
 ## v0.0.51
 
 **Fixed the timer freezing after a pause.** Skipping to the next bath while paused set the
