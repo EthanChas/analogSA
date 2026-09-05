@@ -1,5 +1,19 @@
 # Changelog
 
+## v0.0.54
+
+**Fixed the Add it button being pushed off the screen.** Pasting a recipe code into the
+import dialog grew the text field to fit all thousand-odd characters of it, which shoved
+the dialog's own buttons off the bottom of the display. The one thing you opened the dialog
+to press could not be reached. The field is now three lines tall and scrolls inside itself,
+so the dialog stays the size of a dialog whatever is pasted into it.
+
+**The field fills itself from the clipboard.** If a code is already on the clipboard, which
+it nearly always is, the box opens with it in place. Open the dialog, press Add it, done.
+
+The same fix is applied to the Friends collection code dialog, which had the identical
+problem for the same reason.
+
 ## v0.0.53
 
 **A recipe code on the clipboard is added on its own.** Scan someone's square with your
