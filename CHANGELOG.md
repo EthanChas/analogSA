@@ -1,5 +1,28 @@
 # Changelog
 
+## v0.0.53
+
+**A recipe code on the clipboard is added on its own.** Scan someone's square with your
+phone's camera app, copy what it hands back, open the development timer, and the recipe is
+already there. No paste box, no confirm button.
+
+The check runs when the screen takes window focus rather than on resume, because from
+Android 10 an app may only read the clipboard while it actually holds focus, and resume can
+happen a moment before that is true.
+
+Three things stop it becoming a nuisance:
+
+- **A code is only acted on once.** The last one handled is remembered, so a code left on
+  the clipboard is not offered again every time the screen comes back, including straight
+  after you undo it.
+- **A recipe you already have is never added twice.** Recipes are compared on what they
+  actually do, ignoring the name, so sharing your own recipe puts your own code on the
+  clipboard and nothing happens. Changing a developer time makes it a different recipe and
+  it does get added.
+- **Undo sits in the confirmation.** Adding is silent enough to be reversible in one tap.
+
+The manual paste box is still there for when the clipboard route does not fire.
+
 ## v0.0.52
 
 **A bath no longer runs straight into the next one.** When the time is up the run chimes and
