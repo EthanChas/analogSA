@@ -1,5 +1,18 @@
 # Changelog
 
+## v0.0.55
+
+**Two new sections under Equipment**, side by side above the brand list: **Camera problem
+troubleshooting** and **Development troubleshooting**. Both are empty for now and say so
+when opened.
+
+They are ordinary directory sections rather than a special case, so they already have the
+search, the filtering and the layout every other section has. Filling them is a matter of
+adding entries to the data, with no code behind it.
+
+The cards sit in one row rather than as two full-width rows, because the brand list is what
+that screen is for and should keep its height.
+
 ## v0.0.54
 
 **Fixed the Add it button being pushed off the screen.** Pasting a recipe code into the
